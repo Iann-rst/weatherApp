@@ -2,9 +2,6 @@ import { Drop, MagnifyingGlass, MapPin, Wind } from 'phosphor-react'
 import { useState } from 'react'
 import './main.css'
 
-const countryFlags = "https://countryflagsapi.com/png";
-const appid = '313b67f11426aa37d36d0783e9c7d8f1';
-
 function App() {
   return (
     <div className="w-screen h-screen flex justify-center items-center bg-gradient-to-b to-cyan-100 from-blue-500">
@@ -28,7 +25,7 @@ function App() {
           <h2 className="flex justify-center items-center text-2xl">
             <MapPin size={24} weight="bold" />
             <span>Barreiras</span>
-            <img className='h-8 w-10 ml-4' crossOrigin='anonymous' src={`${countryFlags}/br`} alt="Country Flag" />
+            <img className='h-8 w-10 ml-4' crossOrigin='anonymous' src="" alt="Country Flag" />
           </h2>
           <p>Temperatura<span> &deg;C</span></p>
 
