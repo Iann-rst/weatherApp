@@ -10,11 +10,11 @@ function App() {
           <h3 className='text-white font-bold mb-2 text-center'>Confira o clima de uma cidade:</h3>
           <div className='flex justify-center items-center gap-2'>
             <input
-              className='flex-1 p-3 rounded-md bg-blue-100  placeholder:text-black' type="text" placeholder='Digite o nome da cidade'
+              className='flex-1 p-3 rounded-md bg-blue-100 placeholder:text-black focus:bg-blue-50 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 focus:ring-offset-black' type="text" placeholder='Digite o nome da cidade'
             />
 
             <button
-              className='p-3 bg-blue-100 rounded-md hover:bg-blue-50'
+              className='p-3 bg-blue-100 rounded-md hover:bg-blue-50 hover:ring-2 hover:ring-blue-300 hover:ring-offset-2 hover:ring-offset-black transition-colors focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-2 focus:ring-offset-black'
             >
               <MagnifyingGlass className='text-black' size={24} weight='bold' />
             </button>
