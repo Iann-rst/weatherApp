@@ -35,7 +35,7 @@ function App() {
     event.preventDefault();
 
     if (!city.trim()) {
-      return alert('Sem mensagem')
+      return alert('Informe o nome da cidade')
     }
 
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${appId}&lang=pt_br`)
