@@ -2,4 +2,4 @@
 
 - OpenWeather API;
 - CountryFlags API;
-- Axios;
+- fetch;
